@@ -28,8 +28,10 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
-        
+        #print("Esto no anda, funciona")
+        alert("Prueba","Mensaje...")
+        division = prompt("Pregunta","Que division es?") #operador de asignacion
+        print(division)
 
 if __name__ == "__main__":
     app = App()
